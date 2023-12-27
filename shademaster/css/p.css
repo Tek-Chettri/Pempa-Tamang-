@@ -1,0 +1,158 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background:fixed;
+}
+
+.ul{
+  list-style: none;
+  padding: auto;
+}
+  
+  body {
+    font-family: Arial, sans-serif;
+  }
+
+  @media screen (max-width: 1280){
+   .body {
+
+   }
+    
+  }
+
+  
+  img .shademaster{
+padding: 4px;
+margin-top: auto;
+size-adjust: justify;
+align-items: center;
+display:flex;
+justify-content: center;
+  }
+
+  .navbar {
+    background-color: white;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    color: black;
+    }
+  
+  .navbar-brand {
+    display: flex;
+    align-items: center;
+  }
+  .navbar-name {
+    font-weight: bold;
+    margin-left: auto;
+  }
+
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+    margin-right: auto;
+  }
+
+
+  .dropdown button:hover{
+    color:blue;
+  }
+
+  
+  .dropbtn {
+    background-color: inherit;
+    color: black;
+    border: none;
+    cursor: pointer;
+    margin-left: 100px;
+    margin:left;
+  }
+  .dropbtn{
+    background-color: inherit;
+    color: black;
+    border: none;
+    cursor: pointer;
+    margin-right: 100px;
+    margin: right; 
+  }
+
+.dropbtn:hover{
+  text-overflow: inherit;
+}
+  
+  
+  .dropdown-content {
+    display: none;
+    position: fixed;
+    background-color: skyblue;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+
+
+  
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+    
+  }
+
+  
+  .navbar-icons {
+    display: flex;
+    align-items: center;
+  }
+  
+  input[type="text"] {
+    padding: 6px;
+    margin-right: 100px;
+  }
+  @media(max-width: 600px){
+    li{
+      display: block;
+      margin-bottom: 5px;
+    }
+  }
+
+  .fa-search {
+    color: black;
+    margin-right: 100px;
+  }
+
+  .main-content {
+    text-align: left;
+    padding: 150px;
+  }
+  
+  h1 {
+    color: #888686; 
+    font-size: 60px; 
+    margin-bottom: 10px;
+    color:grey;
+  }
+  
+  h2 {
+    color: #4a6a7a;
+    font-size: 24px; 
+    margin-bottom: 10px;
+  }
+  
+  .description {
+    color: #555;
+    font-size: 16px; 
+    line-height: 1.5;
+  }
+
+ 
+  
