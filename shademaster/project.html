@@ -1,90 +1,96 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <title>shademaster</title>
-    <link rel="stylesheet" href="css/p.css">
-    <!-- Required meta tags -->
-    <meta charset="utf-8"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <title>Navbar with Dropdown</title>
+    <link href="css/p.css" rel="stylesheet">
+</head>
+<body>
 
-    <!-- Bootstrap CSS v5.2.1 -->
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
-      crossorigin="anonymous"
-      />
-  </head>
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+        <!-- Logo in the center -->
+       
+        <!-- Navbar toggler for mobile view -->
+        <button class="navbar-toggler dropdown-layout" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
 
-  <body>
-    <header>
-      <nav class="animatedNav">
-        <ul>
-            <li>
-                <a href="#">ABOUT US</a>
-                <ul>
-                    <li><a href="#">Dropdown Menu One</a></li>
-                    <li><a href="#">Dropdown Menu Two</a></li>
-                    <li><a href="#">Dropdown Menu Three</a></li>
-                </ul>
+        <!-- Navbar items and dropdown -->
+        <div class="collapse navbar-collapse">
+            <ul class="navbar-nav">
+                
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle dropdown-layout" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    ABOUT US
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="#">WHY CHOOSE SHADEMASTER</a>
+                    <a class="dropdown-item" href="#">WHAT IS RIGHT COLOUR</a>
+                    <a class="dropdown-item" href="#">WARRANTY</a>
+                    <a class="dropdown-item" href="#">SUPERIOR COLOUR</a>
+                    <a class="dropdown-item" href="#">FAQ</a>
+                </div>
             </li>
-        </ul>
-    </nav>
-    <nav class="animatedNav">
-      <ul>
-          <li>
-              <a href="#">ROOFING DESIGNS</a>
-              <ul>
-                  <li><a href="#">Dropdown Menu One</a></li>
-                  <li><a href="#">Dropdown Menu Two</a></li>
-                  <li><a href="#">Dropdown Menu Three</a></li>
-              </ul>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle dropdown-layout" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  ROOFING DESIGNS
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="#">PATIOS</a>
+                  <a class="dropdown-item" href="#">VERANDAHS</a>
+                  <a class="dropdown-item" href="#">PERGORLAS</a>
+                  <a class="dropdown-item" href="#">ALFRESCOS</a>
+                  <a class="dropdown-item" href="#">CARPORTS</a>
+                  <a class="dropdown-item" href="#">GAZEBOS</a>
+                  <a class="dropdown-item" href="#">OUTDOOR ROOMS</a>
+                  <a class="dropdown-item" href="#">COMMERCIAL PROJECTS</a>
+
+              </div>
           </li>
-      </ul>
-  </nav>
-  <nav class="animatedNav">
-    <ul>
-        <li>
-            <a href="#">DEALER LOCATORS</a>
-            <ul>
-                <li><a href="#">Dropdown Menu One</a></li>
-                <li><a href="#">Dropdown Menu Two</a></li>
-                <li><a href="#">Dropdown Menu Three</a></li>
-            </ul>
+
+          <li class="nav-item dropdown">
+          <a class="logo-pos " href="#">
+          
+              <img src="image/sm3.jpg" alt="Your Logo" height="30" class="img-fluid">
+
+            
         </li>
-    </ul>
-</nav>
-<nav class="animatedNav">
-  <ul>
-      <li>
-          <a href="#">CONTACT US</a>
-          <ul>
-              <li><a href="#">Dropdown Menu One</a></li>
-              <li><a href="#">Dropdown Menu Two</a></li>
-              <li><a href="#">Dropdown Menu Three</a></li>
-          </ul>
-      </li>
-  </ul>
-</nav>
-    
+        </a>
+        
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle dropdown-layout" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        DEALER LOCATOR
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">DEALER LOCATOR</a>
+                        <a class="dropdown-item" href="#">Authorised Shademaster dealers are located across Australia in NSW, QLD,VIC and SA. Our dealers are experienced in designing and installing custom-built outdoor area solutions.</a>
+                        <a class="dropdown-item" href="#">Use our dealer locator to find your nearest dealer. Alternatively, call us on 1300 511 053 to arrange a free design consultation and quote by one of our dealers.</a>
+                        
 
-      <!-- place navbar here -->
-    </header>
-    <main></main>
-    <footer>
-      <!-- place footer here -->
-    </footer>
-    <!-- Bootstrap JavaScript Libraries -->
-    <script
-      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
-      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
-      crossorigin="anonymous"
-    ></script>
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle dropdown-layout" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      CONTACT US
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <a class="dropdown-item" href="#">CONTACT US</a>
+                      <a class="dropdown-item" href="#">Call us on 1300 511 053 or fill out the form below to get you one step closer to your custom designed outdoor roof.</a>
 
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
-      integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
-      crossorigin="anonymous"
-    ></script>
-  </body>
+                  </div>
+              </li>
+            </ul>
+        </div>
+      </div>
+</nav>
+
+
+<!-- Bootstrap JavaScript Libraries -->
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+
+</body>
 </html>
