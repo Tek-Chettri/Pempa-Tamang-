@@ -1,18 +1,54 @@
+.body {
+    font-size: 16px; /* Set a base font size for the body */
+}
 .dropdown-layout
 {
     display: inline-block;
-    margin-left: 160px;
+    margin-left: 170px;
     vertical-align: middle;
     content: "";
-    border-top: .0em solid;
+    border-top: 0.0em solid;
     border-right: .3em solid transparent;
     border-bottom: 0;
-    border-left: .3em solid transparen;
+    border-left: 0.3em solid transparen;
+    color: black;
+    height: 0;
+    width: 80%;
+background-color: powderblue;
 }
 .logo-pos
 {
 
-vertical-align: 50px;
+vertical-align: 2em;
 position: relative;
-left: 50px;
+left: 80px;
 }
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto; /* Center the image within its container */
+}
+.image-container {
+    position: relative;
+}
+
+.image-container .heading {
+    position: absolute;
+    bottom: 53%; /* Adjust as needed */
+    right: 53%; /* Adjust as needed */
+    transform: translate(-50%, -50%);
+    text-align: left;
+    color: white; /* Adjust text color as needed */
+}
+
+.image-container .heading h3,
+.image-container .heading h1 {
+    margin: 0;
+    padding: 0;
+    font-size: 2em;
+}
+
+
+
+
