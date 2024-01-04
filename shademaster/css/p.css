@@ -38,7 +38,7 @@ left: 80px;
 
 .image-container .heading {
     position: absolute;
-    bottom: 53%; /* Adjust as needed *
+    bottom: 53%; /* Adjust as needed */
     right: 53%; /* Adjust as needed */
     transform: translate(-50%, -50%);
     text-align: left;
