@@ -27,10 +27,13 @@ left: 80px;
     max-width: 100%;
     height: auto;
     display: block;
-    margin: 0 auto; /* Center the image within its container */
+    margin: 0 auto;
+    padding-inline: 20px;
+   
 }
 .image-container {
     position: relative;
+    
 }
 
 .image-container .heading {
@@ -42,13 +45,42 @@ left: 80px;
     color: white; /* Adjust text color as needed */
 }
 
-.image-container .heading h3,
-.image-container .heading h1 {
-    margin: 0;
-    padding: 0;
-    font-size: 2em;
+
+  /* Add this style to your existing CSS or in a style tag in the head of your HTML document */
+
+  /* Adjust the top position and color of the carousel caption */
+  .carousel-caption {
+    top: 10%; /* You can adjust the percentage according to your design */
+    text-align: left; /* Align the text to the left */
+  }
+
+  /* Color the h3 text */
+  .carousel-caption h3 {
+    font-size: 24px; /* Adjust the font size */
+    color: #acdff7; /* Set the color to red; you can replace this with your desired color code */
+  }
+
+  /* Increase the font size of the h1 text */
+  .carousel-caption h1 {
+    font-size: 70px; /* Adjust the font size; you can replace this with your desired size */
+  }
+
+  /* Optional: Adjust the style of the paragraph text */
+  .carousel-caption p {
+    font-size: 18px; /* Adjust the font size */
+  }
+
+  /* Change the color of the button */
+.carousel-caption a.btn.btn-outline-light {
+    background-color: #e7edf1; /* Set the background color; you can replace this with your desired color code */
+    border-color: #f4f6f7; /* Set the border color to match the background color */
+    color: #332e2e; /* Set the text color */
+    border-radius: 0; /* Set border-radius to 0 for a rectangular shape */
 }
 
-
-
-
+/* Change the color of the button on hover */
+.carousel-caption a.btn.btn-outline-light:hover {
+    background-color: #3b3d3f; /* Set the hover background color; you can replace this with your desired color code */
+    border-color: #f3f5f8; /* Set the hover border color */
+    color: #faf6f6; /* Set the text color on hover */
+}
