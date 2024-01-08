@@ -4,7 +4,7 @@
 .dropdown-layout
 {
     display: inline-block;
-    margin-left: 170px;
+    margin-left: 140px;
     vertical-align: middle;
     content: "";
     border-top: 0.0em solid;
@@ -15,6 +15,14 @@
     height: 0;
     width: 80%;
 background-color: powderblue;
+}
+
+.box {
+  box-sizing: border-box;
+  margin-right: 20px; /* Adjust the value as needed */
+  border: 5px solid rgb(238, 236, 236); /* Just an example border, you can customize it */
+  padding: 15px;
+  color: white; /* Just an example padding, you can customize it */
 }
 .logo-pos
 {
@@ -38,8 +46,8 @@ left: 80px;
 
 .image-container .heading {
     position: absolute;
-    bottom: 53%; /* Adjust as needed */
-    right: 53%; /* Adjust as needed */
+    bottom: 50%; /* Adjust as needed */
+    right: 50%; /* Adjust as needed */
     transform: translate(-50%, -50%);
     text-align: left;
     color: white; 
@@ -57,7 +65,7 @@ left: 80px;
   /* Color the h3 text */
   .carousel-caption h3 {
     font-size: 24px; /* Adjust the font size */
-    color: #acdff7; /* Set the color to red; you can replace this with your desired color code */
+    color: #90cfec; /* Set the color to red; you can replace this with your desired color code */
   }
 
   /* Increase the font size of the h1 text */
@@ -84,4 +92,334 @@ left: 80px;
     border-color: #f3f5f8; /* Set the hover border color */
     color: #faf6f6; /* Set the text color on hover */
 }
+
+/* Distribute navbar buttons with space between */
+.navbar-nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Add space between navbar buttons */
+.navbar-nav .nav-item {
+  margin-right: 80px; /* Adjust the value as needed */
+}
+
+body {
+  font-family: Arial, sans-serif;
+  scroll-behavior: smooth;
+}
+
+.section {
+  padding: 320px 0;
+}
+
+.image-container img {
+  width: 100%;
+  height: auto;
+}
+
+.text-container {
+  padding: 350px;
+  text-align: left;
+}
+
+/* Add more styling as needed */
+.btn-outline-light {
+  background-color: rgb(142, 135, 135);
+  border-color: #f3f5f8; /* Replace with your desired color code or name */
+  color: #4d4a4a; /* Set text color to ensure readability, you can adjust this based on your design */
+}
+
+.btn-outline-light:hover {
+  background-color: rgb(101, 97, 97);
+  border-color: #e7edf1;
+  color: rgb(234, 224, 224) /* Change color on hover, replace with your desired color code or name */
+}
+
+body {
+  font-family: Arial, sans-serif;
+  scroll-behavior: smooth;
+}
+
+.section {
+  padding: 320px 0;
+}
+
+.image-container img {
+  width: 100%;
+  height: auto;
+}
+
+.text-container {
+  padding: 80px;
+  text-align: left;
+}
+
+/* Add new styling for reversed layout */
+.row.reverse {
+  flex-direction: row-reverse;
+}
+
+/* Adjust padding for reversed layout */
+.row.reverse .text-container {
+  padding-right: 80px;
+  padding-left: 0;
+}
+
+.row.reverse .image-container {
+  order: 1;
+  padding-right: 0;
+  padding-left: 80px;
+}
+/* General styling for body and containers */
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  margin-top: 20px; /* Adjust as needed to create spacing between containers */
+}
+
+/* Styling for sections */
+.section {
+  padding: 20px;
+  background-color: #f8f9fa; /* Light background color, adjust as needed */
+  border: 1px solid #dee2e6; /* Border color, adjust as needed */
+  margin-bottom: 20px; /* Adjust spacing between sections */
+}
+
+/* Styling for images */
+.image-container img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px; /* Optional: Add border-radius for rounded corners */
+}
+
+/* Styling for text containers */
+.text-container {
+  text-align: left;
+}
+
+/* Styling for headings */
+h1 {
+  color: #e8f0f0; /* Heading color, adjust as needed */
+}
+
+/* Styling for paragraphs */
+p {
+  color: #f9f5f5; /* Text color, adjust as needed */
+}
+
+/* styles.css */
+
+.paragraph {
+  color: rgb(24, 24, 25); /* Change the color to your preferred color */
+  text-decoration: none; /* Remove underline from the links */
+}
+
+.paragraph:hover {
+  color: rgb(14, 14, 15); /* Change the color on hover to your preferred color */
+}
+
+/* Style for container */
+.container {
+  margin: 10px;
+}
+
+/* Style for sections */
+.section {
+  padding: 10px;
+  border: 1px solid #ddd;
+  margin-bottom: 80px;
+
+}
+
+/* Style for images */
+.image-container img {
+  max-width: 150%;
+  height: auto;
+}
+
+/* Style for text containers */
+.text-container {
+  text-align: justify;
+}
+
+/* Style for headings */
+.custom-heading {
+  color: #333;
+}
+
+/* Style for paragraphs */
+.paragraph {
+  color: #555;
+  margin-top: 20px;
+}
+
+/* Style for buttons */
+.btn {
+  background-color: #0b0b0c;
+  border-color: white;
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 10px;
+  border-radius: 8px;
+  display: inline-block;
+  transition: background-color 0.3s ease;
+  margin-left: 80px;
+  
+  }
+  .btn {
+    /* other styles */
+    margin-left: 10px;
+    position: relative;
+    top: 40px; /* Adjust this value to move the button down */
+  }
+
+.btn:hover {
+  background-color: #f1f1f9;
+  border-color: white;
+  color:rgb(24, 24, 25);
+}
+
+/* Optional: Down arrow animation */
+.arrow-down {
+  display: inline-block;
+  margin-left: 5px;
+  width: 0;
+  height: 0;
+  border-left: 8px solid transparent;
+  border-right: 8px solid transparent;
+  border-top: 12px solid #fff; /* Change the color if needed */
+  animation: arrowDown 1s infinite;
+}
+
+
+/* Animation keyframes */
+@keyframes fadeInFromBottom {
+  from {
+    opacity: 0;
+    transform: translateY(50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Apply animations to specific elements */
+.carousel-caption h3,
+.carousel-caption h1,
+.carousel-caption p,
+.carousel-caption a {
+  opacity: 0; /* Initial opacity set to 0 */
+  animation: fadeInFromBottom 1s ease forwards;
+}
+
+.carousel-caption h1 {
+  animation-delay: 0.5s;
+}
+
+.carousel-caption p {
+  animation-delay: 1s;
+}
+
+.carousel-caption a {
+  animation-delay: 1.5s;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+.container{
+	max-width: 1170px;
+	margin:auto;
+}
+.row{
+	display: flex;
+	flex-wrap: wrap;
+}
+ul{
+	list-style: none;
+}
+.footer{
+	background-color: #24262b;
+    padding: 70px 0;
+}
+.footer-col{
+   width: 25%;
+   padding: 0 15px;
+}
+.footer-col h4{
+	font-size: 18px;
+	color: #ffffff;
+	text-transform: capitalize;
+	margin-bottom: 35px;
+	font-weight: 500;
+	position: relative;
+}
+.footer-col h4::before{
+	content: '';
+	position: absolute;
+	left:0;
+	bottom: -10px;
+	background-color: #e91e63;
+	height: 2px;
+	box-sizing: border-box;
+	width: 50px;
+}
+.footer-col ul li:not(:last-child){
+	margin-bottom: 10px;
+}
+.footer-col ul li a{
+	font-size: 16px;
+	text-transform: capitalize;
+	color: #ffffff;
+	text-decoration: none;
+	font-weight: 300;
+	color: #bbbbbb;
+	display: block;
+	transition: all 0.3s ease;
+}
+.footer-col ul li a:hover{
+	color: #ffffff;
+	padding-left: 8px;
+}
+.footer-col .social-links a{
+	display: inline-block;
+	height: 40px;
+	width: 40px;
+	background-color: rgba(255,255,255,0.2);
+	margin:0 10px 10px 0;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 50%;
+	color: #ffffff;
+	transition: all 0.5s ease;
+}
+.footer-col .social-links a:hover{
+	color: #24262b;
+	background-color: #ffffff;
+}
+
+/*responsive*/
+@media(max-width: 767px){
+  .footer-col{
+    width: 50%;
+    margin-bottom: 30px;
+}
+}
+@media(max-width: 574px){
+  .footer-col{
+    width: 100%;
+}
+}
+
+
 
